@@ -46,7 +46,7 @@ module.exports = {
                 extractComments: false,
                 terserOptions: {
                     output: {
-                        comments: true,
+                        comments: false,
                     },
                 },
             }),
