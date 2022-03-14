@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/PaulOCastle/CA1_PauFerrer)
-- Live Site URL: [Vercel](https://ca-1-pau-ferrer.vercel.app/index.html)
+- Solution URL: [GitHub](https://github.com/PaulOCastle/ca_1_pau_ferrer)
+- Live Site URL: [Vercel](https://ca-1-pau-ferrer.vercel.app/)
 
 ## My process
 
