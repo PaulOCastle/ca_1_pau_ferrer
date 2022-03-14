@@ -1,0 +1,110 @@
+/* Landing page styles */
+
+.landing-page {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: font-weight();
+    color: color("black");
+
+    &.body {
+        background: none;
+    }
+
+    &.navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 4px 8px 0px;
+        box-shadow: none;
+        position: static;
+
+        .brand {
+            padding: 0;
+            img {
+                width: 231px;
+                height: 59px;
+            }
+
+            &:hover {
+                background-color: color('white');
+            }
+        }
+
+        .sm-block {
+            img {
+                width: 507px;
+                height: 59px;
+            }
+        }
+    }
+
+    &.intro-section {
+        padding: 0px 8px 8px;
+
+        .heading-1 {
+            font-weight: font-weight("bold");
+            font-size: font-size("l");
+            line-height: 42px;
+            color: theme-color("landing-green");
+            padding-bottom: .5rem;
+        }
+
+        .paragraph {
+            font-size: font-size("s");
+            line-height: 19px;
+            padding: .5rem 0;
+
+            .link {
+                font-weight: font-weight("bold");
+                color: color("red");
+
+                &:hover {
+                    color: #8b0000;
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        .list-block {
+            list-style: disc outside none;
+            margin-left: 1.5rem;
+
+            .list-item {
+                list-style: disc outside none;
+                font-size: font-size("s");
+                line-height: 19px;
+            }
+        }
+    }
+
+    &.links-section {
+        padding: 8px 48px 55px 71px;
+
+        .links-block {
+            width: 1160px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            
+            margin: 0 auto;
+
+            .link-image {
+                width: 284px;
+                height: 340px;
+                transition: 
+                    width 200ms ease-in-out, 
+                    height 200ms ease-in-out;
+
+                &:hover {
+                    width: 293px;
+                    height: 351px;
+                }
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}

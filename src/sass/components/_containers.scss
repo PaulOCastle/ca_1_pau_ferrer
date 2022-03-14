@@ -1,0 +1,29 @@
+.container {
+    padding: 160px 0;
+    width: 100%;
+
+    &.nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+    }
+
+    &.footer {
+        padding: 32px 0px;
+    }
+
+    &.flex {
+        display: flex;
+
+        &.content-bottom {
+            width: 100vw;
+            height: 100vh;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: flex-start;
+            padding-bottom: 0;
+        }
+    }  
+}

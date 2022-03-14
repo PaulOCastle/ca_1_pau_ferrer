@@ -1,0 +1,41 @@
+h1 {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 50px;
+    padding: 0px 0px 24px;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 42px;
+    padding: 0px 0px 24px;
+}
+
+h3 {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: theme-color("iguana-green");
+    padding: 0px 0px 8px;
+}
+
+h1, h2, h4 {
+    width: 400px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0px 0px 16px;
+}

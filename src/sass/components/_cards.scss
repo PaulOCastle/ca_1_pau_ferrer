@@ -1,0 +1,53 @@
+.card {
+
+    &-tile {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+
+        &:after {
+            content: "";
+            display: block;
+            padding-bottom: 100%;
+        }
+
+        .card-body {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-start;
+            padding: 16px;
+            z-index: 2;
+            transition: 
+                background-color ease-in-out .3s;
+
+            h3 {
+                color: color("white");
+            }
+        }
+
+        .card-img {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1;
+
+            img {
+                width: 110%;
+                height: 110%;
+            }
+        }
+
+        &:hover {
+
+            .card-body {
+                background-color: rgba(69, 98, 93, 0.8);
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+/* Common Styles */
+
+html {
+    width: auto;
+    height: auto;
+}
+
+body {
+    width: auto;
+    height: auto;
+    @include background('../img/custom-img/illustrations/background.svg', 0 -5rem, no-repeat, transparent, 100%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: font-weight();
+    font-size: font-size();
+    line-height: 1.5rem;
+    color: color('black');
+}
+
+main {
+    width: 100vw;
+    height: auto;
+}

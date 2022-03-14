@@ -1,0 +1,9 @@
+@mixin background($path, $position: 0 0, $repeat: no-repeat, $color: color('white'), $size: cover) {
+    background: {
+        image: url($path);
+        position: $position;
+        repeat: $repeat;
+        color: $color;
+        size: $size;
+    }
+}

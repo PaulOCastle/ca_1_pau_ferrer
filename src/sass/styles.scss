@@ -1,0 +1,33 @@
+// Font imports
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap');
+
+// Helpers
+@import './helpers/variables';
+@import './helpers/mixins';
+@import './helpers/functions';
+
+// Globals
+@import './globals/resets';
+@import './globals/commons';
+
+// Libs
+// No needed for this project
+
+// Components
+@import './components/typography';
+@import './components/buttons';
+@import './components/navbar';
+@import './components/footer';
+@import './components/sections';
+@import './components/containers';
+@import './components/spacing';
+@import './components/grid';
+@import './components/cards';
+
+// Pages
+@import './pages/landing';
+@import './pages/waterford';
+@import './pages/great_western';
+@import './pages/limerick';
+@import './pages/royal_canal';

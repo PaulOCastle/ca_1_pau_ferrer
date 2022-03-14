@@ -1,0 +1,47 @@
+// Breakpoints ****************************************
+$breakpoints: (
+        s: (375/16) + em,     // 375px
+        m: (768/16) + em,     // 768px
+        l: (1024/16) + em,    // 1024px
+        xl: (1440/16) + em,   // 1440px
+        xxl: (2560/16) + em,  // 2560px
+);
+
+// Colors ****************************************
+$theme-colors: (
+        "primary": #0081CC, // So in case I forgot to specify the color I got a different one
+        "landing-green": #08821F,
+        "iguana-green": #7EC384,
+        "amazon": #3F7857,
+        "deep-space-sparkle": #45625D,
+);
+
+$colors: (
+        "blue": #2e39d6,
+        "red": #e2275f,
+        "yellow": #f0dc2a,
+        "white": #ffffff,
+        "black": #000000,
+);
+
+// Fonts ****************************************
+$font-sizes: (
+        "xs": (10/16) + rem,    // 10px
+        "s": (14/16) + rem,     // 14px
+        "base": (16/16) + rem,  // 16px
+        "m": (20/16) + rem,     // 20px
+        "ml": (24/16) + rem,    // 24px
+        "l": (32/16) + rem,     // 32px
+        "xl": (48/16) + rem,    // 48px
+        "xxl": (64/16) + rem,   // 64px
+);
+
+$font-weights: (
+        "extrathin": 100,
+        "thin": 200,
+        "light": 300,
+        "regular": 400,
+        "semibold": 500,
+        "bold": 600,
+        "extrabold": 700,
+);

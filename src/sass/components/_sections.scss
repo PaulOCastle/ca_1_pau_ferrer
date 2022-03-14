@@ -1,0 +1,40 @@
+section {
+    width: 100vw;
+    padding: 0px 128px;
+    overflow: hidden;
+
+    &.hero-section {
+        height: 100vh;
+    }
+
+    .hero-stmt-block {
+        padding: 32px;
+        background-color: color("white");
+        width: 544px;
+    }
+
+    .side-by-side-img-block {
+        width: 50%;
+        height: 508px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+
+        img {
+            height: 100%;
+        }
+    }
+
+    .side-by-side-stmt-block {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 0px 0px 0px 48px;
+    }
+
+    .cta-block {
+        padding: 16px 0px 0px;
+    }
+}

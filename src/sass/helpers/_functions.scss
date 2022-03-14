@@ -1,0 +1,38 @@
+// Math functions ****************************************
+@function pxToEm($px) {
+    @return ($px/16) + em;
+}
+
+@function pxToRem($px) {
+    @return ($px/16) + rem;
+}
+
+// Color management ****************************************
+@function color($key: "blue") {
+    @return map-get($colors, $key);
+}
+
+@function theme-color($key: "primary") {
+    @return map-get($theme-colors, $key);
+}
+
+// Font management ****************************************
+@function font-size($key: "base") {
+    @if type-of($key) == string {
+      @return map-get($font-sizes, $key);
+    } @else if(type-of($key) == number) {
+      @return toRem($key);
+    } @else {
+      @return null;
+    }
+}
+
+@function font-weight($key: "regular") {
+    @if type-of($key) == string {
+      @return map-get($font-weights, $key);
+    } @else if(type-of($key) == number and ($key % 100) == 0) {
+      @return $key;
+    } @else {
+      @return null;
+    }
+}
